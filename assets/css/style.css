@@ -31,6 +31,7 @@ h1 {
     color: #d9dcd6;
 }
 
+/* nav tag selector setting display, color, orientation, padding, font size, and font family in the navigation inside the header  */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,6 +40,7 @@ nav {
     font-size: 20px;
 }
 
+/* unordered list tag selector overriding the style type of the nav list to where it doesnt have bullets, it displays inline block, and sets the font size */
 ul {
     list-style-type: none;
 }
@@ -53,11 +55,13 @@ a {
     text-decoration: none;
 }
 
+/* paragraph tag selector setting font size inside of the articles */
 p {
     font-size: 16px;
     
 }
 
+/* class selector pulling a photo from a url ref. and adjusting its size, making it a backround. */
 .hero {
     height: 800px;
     width: 100%;
@@ -67,17 +71,26 @@ p {
     background-position: center;
 }
 
-.float-left, .float-right {
+/* float left and float right class selector aligning the photos to the left of the paragraphs  */
+.float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* float left and float right class selector aligning the photos to the right of the paragraphs  */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* main tag selector adjusting the width, display type, and setting the left margin of the main */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* benefits class selector adjusting the appearance of the aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,22 +102,26 @@ main {
     background-color: #2589bd;
 }
 
+/* aside tag and section tag selectors targeting the section children of the parent aside, changing their appearance */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* h3 tag selector targeting the headings in the aside section, aligning the text and changing the font size */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* class selectors targeting the content under the headings inside the aside section, changing their appearance */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* class selectors targeting the content under the main section headings and changing their appearance */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,23 +131,25 @@ h3 {
     color: #ffffff;
 }
 
+/* class selectors changing the images' appearance inside of the main section */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
+/* h2 tag selector targeting the headers inside of the main body and changing their appearance */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.footer {
+/* footer class selector targeting the bottom of the page and changing its appearance*/
+.footer h4 {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h4 {
     font-size: 20px;
 }
+
+
 
