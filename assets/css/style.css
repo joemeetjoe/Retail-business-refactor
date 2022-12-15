@@ -25,40 +25,27 @@ body {
 h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.seo {
     color: #d9dcd6;
 }
 
 /* nav tag selector setting display, color, orientation, padding, font size, and font family in the navigation inside the header  */
-nav {
+nav li {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-/* unordered list tag selector overriding the style type of the nav list to where it doesnt have bullets, it displays inline block, and sets the font size */
-ul {
     list-style-type: none;
-}
-
-li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* paragraph tag selector setting font size inside of the articles */
-p {
-    font-size: 16px;
-    
+/* a tag  targeting the links inside of the header and changing their appearance*/
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* class selector pulling a photo from a url ref. and adjusting its size, making it a backround. */
@@ -69,6 +56,28 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* main tag selector adjusting the width, display type, and setting the left margin of the main */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* class selectors targeting the content under the main section headings and changing their appearance */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    min-height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* class selectors changing the images' appearance inside of the main section */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
 }
 
 /* float left and float right class selector aligning the photos to the left of the paragraphs  */
@@ -83,11 +92,16 @@ p {
     margin-left: 25px;
 }
 
-/* main tag selector adjusting the width, display type, and setting the left margin of the main */
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* h2 tag selector targeting the headers inside of the main body and changing their appearance */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* paragraph tag selector setting font size inside of the articles */
+p {
+    font-size: 16px;
+    
 }
 
 /* benefits class selector adjusting the appearance of the aside section */
@@ -119,27 +133,6 @@ h3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* class selectors targeting the content under the main section headings and changing their appearance */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    min-height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* class selectors changing the images' appearance inside of the main section */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-/* h2 tag selector targeting the headers inside of the main body and changing their appearance */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* footer class selector targeting the bottom of the page and changing its appearance*/
