@@ -14,7 +14,7 @@ N/A
 
 If you would like to use this project, please click on the link below: 
 
-    ![Alt text](./assets/images/01-html-css-git-homework-demo.png)
+    ![Alt text](assets/images/01-html-css-git-homework-demo.png)
 
 ## License
 
