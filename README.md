@@ -15,10 +15,11 @@ N/A
 If you would like to use this project, please click on the link below: 
 
 
-```md
-![ScreenShot](Retail-business-refactor/assets/images/01-html-css-git-homework-demo.png)
+
+
     
-   ```
+![01-html-css-git-homework-demo](https://user-images.githubusercontent.com/119348225/207893432-995845f5-c46c-4eaf-b281-eb6ced5de579.png)
+
 
 ## License
 
