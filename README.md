@@ -14,9 +14,7 @@ N/A
 
 If you would like to use this project, please click on the link below: 
 
-    ```md
-    ![alt text]https://github.com/joemeetjoe/Retail-business-refactor/blob/main/assets/images/01-html-css-git-homework-demo.png
-    ```
+    ![screenshot](./assets/images/html-css-git-homework-demo.png)
 
 ## License
 
