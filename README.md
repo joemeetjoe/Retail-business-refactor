@@ -12,7 +12,9 @@ N/A
 
 ## Usage
 
-If you would like to use this project, please click on the link below: 
+If you would like to use this project, please click on the link below:    
+
+https://joemeetjoe.github.io/Retail-business-refactor/
 
 
 
